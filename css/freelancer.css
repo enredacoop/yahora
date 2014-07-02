@@ -128,7 +128,7 @@ header .intro-text .sponsoredby {
 
 @media(min-width:768px) {
     header .container {
-        padding: 200px 0 100px;
+        padding: 200px 0 10px;
     }
 
     header .intro-text .intro  {

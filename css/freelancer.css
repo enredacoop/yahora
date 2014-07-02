@@ -131,11 +131,11 @@ header .intro-text .sponsoredby {
         padding: 200px 0 100px;
     }
 
-    header .intro-text .intro {
+    header .intro-text .intro  {
         font-size: 2em;
     }
 
-    header .intro-text .name {
+    header .intro-text .name, .intro-text .name {
         font-size: 3.2em;
     }
 }
@@ -443,4 +443,10 @@ footer .footer-below {
 
 #mooc h2, #proyecto h2, #apoyo #h2, #inscribete h2 {
     text-align: center;
+}
+
+.row.space {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }

@@ -103,9 +103,10 @@ header .intro-text .name {
     font-weight: 700;
 }
 
-header .intro-text .button {
+a.personal-button {
     font-size: 1.2em;
     font-weight: 700;
+    text-transform: uppercase;
     color: #FFF;
     text-decoration: none;
     cursor: pointer;;
@@ -114,6 +115,10 @@ header .intro-text .button {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+}
+
+.blocked {
+    display: block;
 }
 
 header .intro-text .sponsoredby {
@@ -183,7 +188,7 @@ header .intro-text .sponsoredby {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0px 40px 0px;
 }
 
 section h2 {
@@ -407,8 +412,35 @@ footer .footer-below {
 
 /* Specific css */
 
-#mooc {
+.menu {
+    text-transform: uppercase;
+}
+
+#inicial {
     background: #FFF url('../img/foto1.jpg') no-repeat top center;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    color: #FFF;
+}
+
+#mooc {
+    background-color: #2248f6;
+    color: #FFF;
+}
+
+#proyecto {
+    background: #FFF url('../img/foto2.jpg') no-repeat top center;
+    color: #FFF;
+}
+
+#apoyo {
+    background-color: #2248f6;
+    color: #FFF;
+}
+
+#inscribete {
+    background-color: #FFAA00;
+    color: #FFF;
+}
+
+#mooc h2, #proyecto h2, #apoyo #h2, #inscribete h2 {
+    text-align: center;
 }

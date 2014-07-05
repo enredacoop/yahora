@@ -2,6 +2,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
 p {
@@ -28,8 +29,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 hr.star-light,
@@ -92,26 +92,38 @@ header .play {
 
 header .intro-text .intro {
     display: block;
-    font-family: 'Lato', sans-serif;
     font-size: 2em;
     font-weight: 300;
+}
+
+header .intro-text .subintro {
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+header .videotext {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 header .intro-text .name {
     display: block;
     font-size: 3.2em;
     font-weight: 700;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 10px;
 }
 
 a.personal-button {
     font-size: 1.2em;
     font-weight: 700;
     text-transform: uppercase;
-    color: #FFF;
     text-decoration: none;
     cursor: pointer;;
     padding: 0.5em;
-    border: 2px solid #FFF;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -166,7 +178,6 @@ header .intro-text .sponsoredby {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
 
@@ -185,6 +196,10 @@ header .intro-text .sponsoredby {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+header {
+    padding: 30px 0px 30px 0px;
 }
 
 section {
@@ -306,7 +321,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #000;
 }
 
 .btn-social {
@@ -421,28 +436,138 @@ footer .footer-below {
     color: #FFF;
 }
 
-#mooc {
-    background-color: #2248f6;
+#aprenderas {
+    background-color: #E36C00;
     color: #FFF;
 }
 
-#proyecto {
+
+
+#dirigido {
     background: #FFF url('../img/foto2.jpg') no-repeat top center;
     color: #FFF;
 }
 
 #apoyo {
-    background-color: #2248f6;
+    background-color: #FF6103;
     color: #FFF;
 }
 
-#inscribete {
-    background-color: #FFAA00;
+#apoyo .title {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+#apoyo img {
+    margin-right: 20px;
+}
+
+#inscribete, #expertos {
+    background-color: #F0F0F0;
+    color: #223f83;
+}
+
+#inscribete .call-text {
+    font-size: 2em;
+}
+
+#social {
+    background-color: #4C88E2;
     color: #FFF;
 }
 
-#mooc h2, #proyecto h2, #apoyo #h2, #inscribete h2 {
+#social .call-text {
+    font-size: 1.8em;
+    margin-right: 180px;
+}
+
+#social i {
+    font-size: 3em;
+    margin-right: 30px;
+}
+
+#social2 {
+    background-color: #223f83;
+    color: #FFF;
+}
+
+#social2 .call-text {
+    font-size: 1.8em;
+    margin-right: 180px;
+}
+
+#social2 i {
+    font-size: 3em;
+    margin-right: 30px;
+}
+
+#recursos {
+    background-color: #4C88E2;
+    color: #FFF;
+}
+
+#recursos i {
+    font-size: 6em;
+    margin-right: 30px;
+}
+
+#recursos .recurso-item {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+#yahora {
+    background-color: #223f83;
+    color: #FFF;
+}
+
+#yahora p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#yahora a.personal-button {
+    color: #2c3e50;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+
+section h2 {
     text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFF;
+}
+
+#expertos h2 {
+    border-bottom: 1px solid #2c3e50;
+}
+
+#expertos img {
+    border-radius: 50px;
+    height: 128px;
+    width: 128px;
+}
+
+#expertos h4 {
+    font-size: 2em;
+    text-transform: capitalize !important;
+}
+
+#expertos p.bio {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+#aprenderas i {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#aprenderas a.personal-button {
+    color: #E36C00;
+    background-color: #FFF;
 }
 
 .row.space {
@@ -457,12 +582,64 @@ width: 40%;
 height: 43px;
 padding: 10px 15px;
 margin-right: 10px;
-font-size: 15px;
+font-size: 1.2em;
 line-height: 1.42857143;
-color: #2c3e50;
+color: #2c3e50 !important;
 background-color: #ffffff;
 background-image: none;
 border: 1px solid #dce4ec;
 border-radius: 4px;
 float: left;
+}
+
+.our-btn {
+    text-transform: uppercase;
+    background-color: #223f83 !important;
+    border-color: #223f83 !important;
+}
+
+.description {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.description2 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.item {
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c3e50 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c3e50 !important;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c3e50 !important;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #2c3e50 !important;
+}
+
+
+
+
+.navbar-default {
+    background-color: #4C88E2 !important;
+    border-color: transparent;
+}
+
+.navbar-default ul li a:hover {
+    color: #0b2346 !important;
+}
+
+.navbar-default ul li.active a:hover {
+    color: #4C88E2 !important;
 }

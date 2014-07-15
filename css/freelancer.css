@@ -353,6 +353,19 @@ footer .footer-below {
     background-color: #000;
 }
 
+footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+footer a:hover {
+color: #013f83 ;
+text-decoration: none;
+    }
+
+footer span {
+    float: right;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -504,8 +517,8 @@ footer .footer-below {
 
 #apoyo .contacto {
 font-size: 1.2em;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 600;
+    text-transform: none;
     text-decoration: none;
     cursor: pointer;;
     padding: 1em;
@@ -535,6 +548,7 @@ font-size: 1.2em;
 }
 
 #inscribete .call-text, #inscribete2 .call-text  {
+    color: #013f83;
     font-size: 2em;
 }
 

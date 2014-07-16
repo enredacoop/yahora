@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 body {
     overflow-x: hidden;
-    font-family: 'Lato', sans-serif;
-}
+font-family: 'Varela Round', sans-serif;}
 
 p {
     font-size: 20px;
@@ -88,7 +88,23 @@ header .container {
 header .play {
     display: block;
     margin: 0 auto 20px;
+    color: #fff;
 }
+
+.play i{
+font-size: 4em;
+
+}
+.play i:hover{
+color: #18bc9c ;
+    }
+
+.play a {
+ text-decoration: none;
+}
+.play a:hover{
+    text-decoration: none;
+    }
 
 header .intro-text .intro {
     display: block;
@@ -112,7 +128,7 @@ header .videotext {
 header .intro-text .name {
     display: block;
     font-size: 3.2em;
-    font-weight: 700;
+    font-weight: normal;
     border-bottom: 1px solid #FFF;
     padding-bottom: 10px;
 }
@@ -146,11 +162,11 @@ header .intro-text .sponsoredby {
     }
 
     header .intro-text .intro  {
-        font-size: 2em;
+        font-size: 24px;
     }
 
     header .intro-text .name, .intro-text .name {
-        font-size: 3.2em;
+        font-size: 33px;
     }
 }
 
@@ -474,7 +490,7 @@ footer span {
 }
 
 #inicial {
-    background: #FFF url('../img/foto1.png') no-repeat top center fixed;
+    background: #FFF url('../img/foto1.jpg') no-repeat top center fixed;
       -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -485,7 +501,7 @@ footer span {
 }
 
 #aprenderas {
-        background: #FFF url('../img/foto2.png') no-repeat top center;
+        background: #FFF url('../img/foto2.jpg') no-repeat top center;
    
     color: #013f83;
 }
@@ -503,7 +519,7 @@ footer span {
 
 #apoyo {
     background-color: #f0f0f0;
-    color: #013f83;
+    color: #338ed2;
 }
 
 #apoyo .title {
@@ -549,7 +565,7 @@ font-size: 1.2em;
 
 #inscribete .call-text, #inscribete2 .call-text  {
     color: #013f83;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 #social {
@@ -593,16 +609,17 @@ font-size: 1.2em;
 
 }
 #recursos i {
-    font-size: 6em;
+    font-size: 9em;
     margin-right: 30px;
     color: #013f83;
+    margin-bottom: 5px;
 }
 
 #recursos h2 {
     color: #338ed2;
 }
 #recursos .recurso-item {
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-transform: uppercase;
 }
 
@@ -699,6 +716,11 @@ float: left;
 .item {
     padding-bottom: 20px;
     font-size: 1.2em;
+
+}
+
+ul.lista{
+list-style-image: url('../img/li.icon.png');
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */

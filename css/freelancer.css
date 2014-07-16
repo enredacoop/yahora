@@ -87,16 +87,21 @@ header .container {
 
 header .play {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto -20px;
     color: #fff;
+     text-decoration: none;
 }
 
+header .play:hover {
+color: #013f83 ;
+    }
+
 .play i{
-font-size: 4em;
+font-size: 10em;
 
 }
 .play i:hover{
-color: #18bc9c ;
+color: #013f83 ;
     }
 
 .play a {
@@ -559,7 +564,7 @@ font-size: 1.2em;
 
 
 #expertos {
-    background-color: #118be2;
+    background: #2A99EC url('../img/logo-fondo.png') no-repeat center;
     color: #fff;
 }
 
@@ -624,8 +629,10 @@ font-size: 1.2em;
 }
 
 #yahora {
-    background-color: #118be2;
+    
     color: #FFF;
+    background: #2A99EC url('../img/logo-fondo.png') no-repeat center;
+
 }
 
 #yahora p {
@@ -653,6 +660,10 @@ section h2 {
     border-radius: 50px;
     height: 128px;
     width: 128px;
+}
+
+#expertos img.noimg {
+border: 1px solid #fff;
 }
 
 #expertos h4 {

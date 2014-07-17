@@ -222,12 +222,16 @@ header .intro-text .sponsoredby {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #013f83 !important;
+/*color: #013f83 !important;
+background-color: #4C88E2 !important;*/
+color: #FFF !important;
 background-color: #4C88E2 !important;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-color: #013f83 !important;
+/*color: #013f83 !important;
+background-color: #4C88E2 !important;*/
+color: #FFF !important;
 background-color: #4C88E2 !important;
 }
 
@@ -762,11 +766,11 @@ list-style-image: url('../img/li.icon.png');
 }
 
 .navbar-default ul li a:hover {
-    color: #0b2346 !important;
+    /*color: #0b2346 !important;*/
 }
 
 .navbar-default ul li.active a:hover {
-    color: #4C88E2 !important;
+    /*color: #4C88E2 !important;*/
 }
 
 #expertos .contacto {

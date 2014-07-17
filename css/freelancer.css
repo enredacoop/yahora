@@ -568,6 +568,10 @@ font-size: 1.2em;
     color: #fff;
 }
 
+#expertos a {
+    color: #FFF;
+}
+
 #inscribete .call-text, #inscribete2 .call-text  {
     color: #013f83;
     font-size: 2.5em;

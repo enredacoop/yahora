@@ -1,11 +1,6 @@
-yahora
-======
+# Landing Yahora #
 
-Landing Yahora
-
-
-ROADMAP
-============
+## ROADMAP ##
 
 v.0
 - Poner las redes sociales, como enlaces para compartir 
@@ -15,7 +10,6 @@ v.0
 - MENU, quitar el parpadeo.
 - Expertos:Foto de Mª Jesús: adjunto la foto de donde sacarla, si no se puede por algún motivo cambiar este experto por Mª Carmen Artuñedo.
 Incluir que todos los expertos son de la UNED-COIE (Nuria, Paula y María)
-
 
 v.2
 - el slide de expertor

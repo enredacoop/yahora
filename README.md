@@ -3,13 +3,10 @@
 ## ROADMAP ##
 
 v.0
-- Poner las redes sociales, como enlaces para compartir 
+- Poner las redes sociales, como enlaces para compartir. (HECHO)
 - Subir el temario para descargar
-- el formulario de contacto
-- la img de Mª Jesús Roldán
-- MENU, quitar el parpadeo.
-- Expertos:Foto de Mª Jesús: adjunto la foto de donde sacarla, si no se puede por algún motivo cambiar este experto por Mª Carmen Artuñedo.
-Incluir que todos los expertos son de la UNED-COIE (Nuria, Paula y María)
+- el formulario de contacto. Mailto. (HECHO)
+- MENU, quitar el parpadeo. (HECHO)
 
 v.2
 - el slide de expertor

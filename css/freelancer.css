@@ -21,7 +21,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #013f83;
 }
 
 h1,
@@ -559,6 +559,12 @@ font-size: 1.2em;
     color: #013f83;
 
 }
+
+#apoyo a{
+text-decoration: none;
+}
+
+
 
 #inscribete {
 

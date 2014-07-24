@@ -807,3 +807,11 @@ list-style-image: url('../img/li.icon.png');
     font-size: 1.4em;
 
 }
+
+#contacto {
+    background-color: #f0f0f0;
+}
+#contacto h2 {
+color: #338ed2;
+
+}
